@@ -5,4 +5,4 @@ Task-1
 
 Task-2
 
-2) It's Food calorie predictor model which will detect the food type by using Convolutional Neural Network (CNN) and also it estimates the weight and calories of food.
+2) It's Food calorie predictor model which will detect the food type and also it estimates the weight and calories of food.
