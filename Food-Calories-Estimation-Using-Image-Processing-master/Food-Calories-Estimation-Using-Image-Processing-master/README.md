@@ -1,6 +1,6 @@
 
 # Food Calories Estimation Using Image Processing
-<img src="1.jpg" alt="python" width="150" height="190" align="right">
+
 
 
 + ###  Problem
