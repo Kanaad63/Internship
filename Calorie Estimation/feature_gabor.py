@@ -66,7 +66,6 @@ def getTextureFeature(img):
 
 if __name__ == '__main__':
     import sys
-    #from common import Timer
     print __doc__
     try: img_fn = sys.argv[1]
 
