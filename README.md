@@ -4,4 +4,5 @@ Task-1
 1) It's a Zomato Sentimental Analysis project where the reviews of the customers are used. This is implemented using Web Scrapping using python .
 
 Task-2
+
 2) It's Food calorie predictor model which will detect the food type by using Convolutional Neural Network (CNN) and also it estimates the weight and calories of food.
