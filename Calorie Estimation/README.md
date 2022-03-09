@@ -6,5 +6,6 @@ The problem can be simply stated as, given a set of food images with calibration
 
 ## Objectives
 To detect food type using ML
+
 To estimate food weight and calories of food
 
