@@ -56,7 +56,6 @@ def testing():
 	result = svm_model.predict_all(testData)
 	mask = result==responses
 
-	#calculate calories
 	for i in range(0, len(result)):
 		volume = getVolume(result[i], fruit_areas[i], skin_areas[i], pix_cm[i], fruit_contours[i])
 		mass, cal, cal_100 = getCalorie(result[i], volume)
@@ -65,7 +64,6 @@ def testing():
 		fruit_calories_100grams.append(cal_100)
 		fruit_mass.append(mass)
 
-	#write into csv file
 	with open('output.csv', 'w') as outfile:
 		writer = csv.writer(outfile)
 		data = ["Image name", "Desired response", "Output label", "Volume (cm^3)", "Mass (grams)", "Calories for food item", "Calories per 100 grams"]
