@@ -8,12 +8,6 @@
 + ### Objectives
  1.	To detect food type by using Convolutional Neural Network (CNN)
  2.	To estimate food weight and calories of food
- 
-
-### Estimation Method:
-+ #### Image Segmentation:
-A mixture of methods including canny edge detection, watershed segmentation, morphological operators and Otsu’s method were used to segment the food item to obtain the contour of the fruit and the contour of the thumb. We use the thumb finger for calibration purposes. The thumb is placed next to the dish while clicking the photo and this thumb gives us the estimate of the real-life size of the food item and helps estimate volume accurately.
-> *all this done ```image_segment.py``` and ```calorie.py```*
 
 
 
