@@ -1,13 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Mar 28 09:31:30 2019
 
-@author:vinayak sable 
-"""
 
-import numpy as np         # dealing with arrays
-import os                  # dealing with directories
-from random import shuffle # mixing up or currently ordered data that might lead our network astray in training.
+import numpy as np         
+import os                  
+from random import shuffle 
 import glob
 import cv2
 from cnn_model import get_model
@@ -41,7 +36,7 @@ def create_train_data(path):
     return training_data,folders
 
 training_data,labels=create_train_data(path)
-# training_data=np.load('training_{}_{}_{}.npz'.format(no_of_fruits,no_of_images,IMG_SIZE))
+
 size=int(len(training_data)*percentage)
 train = training_data[:-size]
 test=training_data[-size:]
